@@ -1,5 +1,5 @@
 body{
-    background-color: whitesmoke;
+    background-color: #fafafa;
 }
 
 nav{
@@ -23,12 +23,12 @@ nav ul li a {
   font-weight: 400;
 }
 .content{
-  margin-top: 10%;
+  margin-top: 0%;
   max-width: 600px;
 }
 .content h1{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 60px;
+  font-size: 70px;
   color: #333;
   text-align: center;
 
@@ -39,9 +39,7 @@ nav ul li a {
   color: #222;
   text-align: center;
 }
-.divconent p {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
+
 .content .btn {
   padding: 15px 80px;
   font-size: 16px;
@@ -51,4 +49,33 @@ nav ul li a {
   position: absolute;
   bottom: 0;
   right: 5%;
+}
+.div {
+  margin-top: 10%;
+  max-width: 600px;
+}
+.div p{
+ margin: 10px 0 20px;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ color: black;
+ text-align: left;
+ font-size: 20px;
+}
+.div li{
+  margin: 10px 0 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #222;
+  text-align: left;
+}
+.animation{
+  opacity: 2;
+  transform: translate(30px);
+  animation: moveup 5s linear forwards;
+}
+@keyframes moveup {
+  100%{
+    opacity: 1;
+    transform: translate(30px);
+  }
+  
 }
