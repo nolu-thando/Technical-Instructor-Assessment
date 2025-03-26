@@ -81,18 +81,20 @@ nav ul li a {
   }
   
 }
-.div{
+.videocontent{
   margin-top: 10%;
   max-width: 600px;
 }
-.newcontent{
-  margin-top: 0%;
-  max-width: 600px;
-}
-.newcontent p{
+.videocontent p{
   margin: 10px 0 20px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: #222;
-  text-align: right;
+   font-size: 30px;
+  display: flex;
+  justify-content: right;
+  align-items: right;
+
+}
+.iframe{
 
 }
