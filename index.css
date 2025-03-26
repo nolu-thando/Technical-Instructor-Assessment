@@ -2,15 +2,6 @@ body{
     background-color: whitesmoke;
 }
 
-.name{
-  width: 100%;
-  min-height: 100vh;
-  background-image: url(images/backgroundimage.webp);
-  background-position: center;
-  background-size: cover;
-  padding: 10px 10%;
-  overflow: hidden;
-}
 nav{
   padding: 10px 0;
   display: flex;
@@ -28,6 +19,36 @@ nav ul li{
 }
 nav ul li a {
   text-decoration: none;
-  color: antiquewhite;
+  color: #333;
   font-weight: 400;
+}
+.content{
+  margin-top: 10%;
+  max-width: 600px;
+}
+.content h1{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 60px;
+  color: #333;
+  text-align: center;
+
+}
+.content p{
+  margin: 10px 0 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #222;
+  text-align: center;
+}
+.divconent p {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.content .btn {
+  padding: 15px 80px;
+  font-size: 16px;
+}
+.feature-img{
+  width: 530px;
+  position: absolute;
+  bottom: 0;
+  right: 5%;
 }
