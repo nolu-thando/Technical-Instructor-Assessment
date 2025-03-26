@@ -25,6 +25,7 @@ nav ul li a {
 .content{
   margin-top: 0%;
   max-width: 600px;
+  animation-delay: 0.5s;
 }
 .content h1{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -38,6 +39,7 @@ nav ul li a {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: #222;
   text-align: center;
+  animation-delay: 1s;
 }
 
 .content .btn {
@@ -70,7 +72,7 @@ nav ul li a {
 .animation{
   opacity: 2;
   transform: translate(30px);
-  animation: moveup 5s linear forwards;
+  animation: moveup 0.5s linear forwards;
 }
 @keyframes moveup {
   100%{
@@ -78,4 +80,19 @@ nav ul li a {
     transform: translate(30px);
   }
   
+}
+.div{
+  margin-top: 10%;
+  max-width: 600px;
+}
+.newcontent{
+  margin-top: 0%;
+  max-width: 600px;
+}
+.newcontent p{
+  margin: 10px 0 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #222;
+  text-align: right;
+
 }
