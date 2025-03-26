@@ -1,5 +1,8 @@
 body{
-    background-color: #fafafa;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+    background-color: papayawhip ;
 }
 
 nav{
@@ -7,6 +10,7 @@ nav{
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background-color:#fafafa;
 }
 
 .logo{
@@ -51,6 +55,9 @@ nav ul li a {
   position: absolute;
   bottom: 0;
   right: 5%;
+  border: 2px solid black;
+  border-radius: 10px;
+
 }
 .div {
   margin-top: 10%;
@@ -108,5 +115,19 @@ nav ul li a {
 }
 .iframe{
   text-align: center;
+  border: 2px solid black;
+  border-radius: 10px;
 
+}
+.form quiz{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 40px;
+  color: #333;
+  text-align: center;
+}
+.form quiz p{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 40px;
+  color: #333;
+  text-align: center;
 }
