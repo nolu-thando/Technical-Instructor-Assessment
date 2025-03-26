@@ -93,8 +93,20 @@ nav ul li a {
   display: flex;
   justify-content: right;
   align-items: right;
-
+}
+  .videocontent h1{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 40px;
+  color: #333;
+  text-align: center;
+  }
+.videocontent p {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  color: #333;
+  text-align: right;
 }
 .iframe{
+  text-align: center;
 
 }
